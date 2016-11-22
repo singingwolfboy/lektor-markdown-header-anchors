@@ -53,7 +53,7 @@ markdown_header_adjustment = 1
 This option must be an integer. The value of the integer is added to the level
 of the generated header tags in the HTML. With a value of 1, all `<h1>` tags
 become `<h2>` tags, and all `<h2>` tags become `<h3>` tags.
-With a value of 2, all `<h1>` tags become `<h3>` tags, and all `<h3>` tags
+With a value of 2, all `<h1>` tags become `<h3>` tags, and all `<h2>` tags
 become `<h4>` tags. HTML only defines header tags from `<h1>` to `<h6>`,
 so this plugin will bound the output between those two values:
 it will never generate an `<h7>` tag, for example.
